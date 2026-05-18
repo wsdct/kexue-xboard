@@ -39,6 +39,7 @@ class ServerSave extends FormRequest
         'reality_settings.public_key' => 'nullable|string',
         'reality_settings.private_key' => 'nullable|string',
         'reality_settings.short_id' => 'nullable|string',
+        'reality_settings.dest' => 'nullable|string',
     ];
 
     private const PROTOCOL_RULES = [
