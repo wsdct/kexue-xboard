@@ -167,6 +167,7 @@ class Server extends Model
                 'private_key' => ['type' => 'string', 'default' => null],
                 'short_id' => ['type' => 'string', 'default' => null],
                 'allow_insecure' => ['type' => 'boolean', 'default' => false],
+                'dest' => ['type' => 'string', 'default' => null],
             ]
         ]
     ];
